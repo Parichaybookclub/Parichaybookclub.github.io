@@ -1,0 +1,28 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+nav a.nav-link {
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+nav a.nav-link:hover {
+    color: #ffc107; /* Yellow color on hover */
+}
+
+section {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

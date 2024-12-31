@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parichay Book Club</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* Italicize headings */
+        h1, h2 {
+            font-style: italic;
+        }
+
+        /* Add space above the navbar */
+        nav {
+            margin-top: 20px; /* Adjust the margin for spacing */
+        }
+
+        /* Ensure footer is at the bottom */
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        .image-container {
+            text-align: center;
+            margin-top: 20px; /* Space above the image */
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .caption {
+            font-style: italic;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">Parichay</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./pages/members.html">Members</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./pages/book_list.html">Book List</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./pages/pictures.html">Pictures</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container my-4">
+        <section>
+            <h1>Welcome to our website.</h1>
+            <p>Welcome to the Parichay Book club website! We read books written in the Marathi language. Book reviews are written in Marathi and English. All book reviews are written by our book club members. Reviews are written in English for non-Marathi readers to know about the Marathi books.</p>
+            <h2>Next Meeting: October 6, 2024 @ 4:30 pm</h2>
+
+            <!-- Image and caption section -->
+            <div class="image-container">
+                <img src="./images/home_page.jpg" style="width: 20%; height: auto;" alt="Book Cover" onerror="console.log('Image not found: Check the file path.')">
+                <div class="caption">
+                    पुस्तक: त्या तिघी <br>
+                    लेखिका: डॉ. सौ. शुभा साठे
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="text-center py-3">
+        <p>CONTACT: vandana14046@gmail.com</p>
+    </div>
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Parichay Book Club</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
